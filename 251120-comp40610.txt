@@ -1,0 +1,111 @@
+COMP40610 - Information Visualisation
+├── Intro to Info Vis
+│   ├── What
+│   ├── Why
+│   └── A brief history
+├── Data
+│   ├── Data attribute types (N, O, Q)
+│   └── Operations & aggregation operations
+│       ├── Compatibility between operations and data types
+│       ├── Filtering
+│       ├── Transforming and deriving
+├── Charts & Tasks
+│   ├── Aligning chart types and tasks
+│   ├── Simple bar charts
+│   ├── Bar charts with multiple attributes
+│   ├── Stacked bar charts
+│   ├── Traffic Growth on N40 example - alternative designs
+│   ├── Dot plots
+│   ├── Line charts
+│   ├── Slope charts
+│   ├── Scatter plots
+│   ├── SPLOM
+│   ├── Histograms
+│   ├── Distinguish histograms and bar charts
+│   └── Financial Times Visual Vocabulary
+├── Encodings
+│   ├── Encoding: mapping data dimensions to visual channels (Jacques Bertin)
+│   ├── Marks: graphical elements representing data items
+│   ├── Channels: what control the appearance of a mark
+│   ├── Deconstruction of a visualisation into marks and visual channels
+│   ├── Expressiveness and effectiveness (Jock MacKinlay)
+│   ├── Principle of importance ordering
+│   ├── Munzner's chart: current knowledge of encoding effectiveness & expressiveness
+│   │   ├── Magnitude channels and identity channels
+│   │   └── Ordering
+│   ├── Basis of ordering
+│   │   ├── Stevens psychophysical power law
+│   │   └── Perceptual experiments (e.g., Cleveland and McGill's)
+│   ├── Discriminability
+│   ├── Separability
+│   └── Redundant encoding
+├── Visual Perception
+│   ├── What is perception?
+│   ├── Perception is influenced by past experiences, context, assumptions
+│   ├── Visual attention
+│   │   ├── Pre-attentive properties: effective properties that makes elements pop out
+│   │   ├── Conjunction targets
+│   │   ├── Change blindness
+│   │   └── Attention blindness
+│   └── Ensemble encoding: generate quick summary of how simple visual features are distributed
+├── Colour
+│   ├── Colour fundamentals
+│   │   ├── Cone and rod cells
+│   │   └── Trichromacy - 3 types of cone cells
+│   ├── Colour spaces
+│   │   ├── RGB
+│   │   ├── HSL
+│   │   ├── Munsell
+│   │   └── CIE Chromaticity diagram
+│   ├── Colour blindness
+│   │   ├── Use monochromatic scales for continuous, quantitative data
+│   │   ├── Use redundant encodings for nominal data
+│   │   ├── Use colourblind safe palettes
+│   │   └── Limit the number of colours
+│   ├── Colour maps
+│   │   ├── Qualitative - N
+│   │   ├── Sequential - O, Q
+│   │   ├── Diverging - O, Q
+│   │   └── Rainbow colour map is almost always bad
+│   └── Associations through colour
+├── Multivariate data
+│   ├── Feature selection
+│   ├── Heatmaps
+│   ├── Glyphs
+│   │   ├── Radar charts
+│   │   └── Chernoff faces
+│   ├── Parallel coordinates
+│   ├── Brushing and linking
+│   └── Dimensionality reduction (e.g., PCA)
+├── Thematic maps
+│   ├── Fundamentals
+│   │   ├── Vector vs raster
+│   │   ├── Thematic maps
+│   │   ├── Map layers
+│   │   ├── Map projections
+│   │   └── Geocoding
+│   ├── GeoJSON and TopoJSON
+│   └── Geospatial visualisation types
+│       ├── Dot maps & bubble maps
+│       ├── Line maps & flow maps
+│       └── Choropleth maps, cartograms, tile grid maps
+├── Networks
+│   ├── Fundamentals
+│   │   ├── Data items (nodes) and relationships (edges)
+│   │   ├── Types of network: undirected, directed, weighted
+│   │   └── Tasks on network: path finding and community identification
+│   └── Network visualisation approaches
+│       ├── Node-link diagrams
+│       ├── Adjacency matrices
+│       └── Tree maps (enclosure)
+└── Evaluation Experiments
+	├── Purposes
+	├── Types: controlled experiments and field studies
+	└── 7 elements of a controlled evaluation experiment
+		├── Hypothesis (specific, testable, defined in terms of variables)
+		├── Variables: independent, dependent, confounding (controlled and random)
+		├── Experimental methods (between-groups, within-groups)
+		├── Subject selection
+		├── Data collection
+		├── Data analysis
+		└── Managing experiement
